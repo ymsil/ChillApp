@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using ChillApp.Pages;
 using Xamarin.Forms;
 
 namespace ChillApp
@@ -13,7 +13,7 @@ namespace ChillApp
 		{
 			InitializeComponent();
 
-			MainPage = new ChillApp.MainPage();
+			MainPage = new WelcomePage();
 		}
 
 		protected override void OnStart ()
